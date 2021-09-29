@@ -144,7 +144,7 @@ footer p {
 }
 
 .regular:hover .overlay, .regular:focus .overlay {
-    background-color: rgba(13, 13, 13, 0.6);
+    background-color: rgba(13, 13, 13, 0.7);
     transition: all 220ms ease-in-out;
 }
 
@@ -155,7 +155,7 @@ footer p {
 
 .text {
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 24px;
     line-height: 43px;
     position: absolute;

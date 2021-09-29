@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav class="sticky">
@@ -39,7 +40,7 @@
             </p>
         </div>
         <div class="main"></div>
-            <div class="item-main">
+            <div class="item-main" data-aos="fade-right">
                 <img src="./assets/images/about.png" alt="About Bojonegoro">
                 <div class="text-main">
                     <h2 class="white-text">
@@ -50,7 +51,7 @@
                     </p>
                 </div>
             </div>
-            <div class="item-main">
+            <div class="item-main" data-aos="fade-left">
                 <div class="text-main">
                     <h2 class="white-text">
                         History
@@ -61,7 +62,7 @@
                 </div>
                 <img src="./assets/images/history.png" alt="History">
             </div>
-            <div class="item-main">
+            <div class="item-main" data-aos="fade-right">
                 <img src="./assets/images/economy.png" alt="Economy">
                 <div class="text-main">
                     <h2 class="white-text">
@@ -72,7 +73,7 @@
                     </p>
                 </div>
             </div>
-            <div class="item-main">
+            <div class="item-main" data-aos="fade-left">
                 <div class="text-main">
                     <h2 class="white-text">
                         Infrastructure
@@ -83,7 +84,7 @@
                 </div>
                 <img src="./assets/images/infrastructure.png" alt="Infrastructure">
             </div>
-            <div class="item-main">
+            <div class="item-main" data-aos="fade-right">
                 <img src="./assets/images/culture.png" alt="Culture">
                 <div class="text-main">
                     <h2 class="white-text">
@@ -103,5 +104,9 @@
         </p>
     </footer>
     <script src="./assets/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -163,6 +163,7 @@ footer p {
 }
 
 .item-logo {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;

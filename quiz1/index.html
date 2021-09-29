@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans"/>
 </head>
-<body>
+<body id="vantajs">
     <nav class="sticky">
         <a href="../quiz1/" class="logo-type">
             wisnupramoedya
@@ -79,5 +79,24 @@
         </p>
     </footer>
     <script src="./assets/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <script>
+        VANTA.WAVES({
+            el: "#vantajs",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            shininess: 10.00,
+            waveHeight: 4.50,
+            waveSpeed: 1.25,
+            zoom: 0.6,
+            color: 0x282c34,
+        })
+        </script>
 </body>
 </html>
