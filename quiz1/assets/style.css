@@ -1,0 +1,132 @@
+body {
+    width:100%; 
+    height:100%;
+    padding:0px;
+    margin:0px;
+    background: #282C34;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.blue-text {
+    color: #45BAFC;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #20232A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sticky {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.logo-type {
+    background: linear-gradient(270deg, #61DAFB -4.1%, #45BAFC 103.24%);
+    -webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.navigation {
+    display: flex;
+    gap: 36px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background: #20232A;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    float: right;
+    color: #FFFFFF;
+}
+
+.content {
+    flex: 1;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.main-content {
+    width: 35%;
+}
+
+.main-content h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 77px;
+    margin: 0;
+}
+
+.main-content p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.list-content {
+    width: 190px;
+}
+
+.list-content:hover {
+    color: #45BAFC;
+    cursor: pointer;
+}
+
+.number {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 86px;
+}
+
+.title {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 43px;
+}

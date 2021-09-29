@@ -1,0 +1,135 @@
+body {
+    width:100%; 
+    height:100%;
+    padding:0px;
+    margin:0px;
+    background: #282C34;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.blue-text {
+    color: #45BAFC;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #20232A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sticky {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.logo-type {
+    background: linear-gradient(270deg, #61DAFB -4.1%, #45BAFC 103.24%);
+    -webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.navigation {
+    display: flex;
+    gap: 36px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background: #20232A;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    float: right;
+    color: #FFFFFF;
+}
+
+.content {
+    flex: 1;
+    margin: 135px 100px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 68px;
+}
+
+.page h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 115px;
+}
+
+.page p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0 0 0 55px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 62px 0;
+}
+
+.text-main {
+    width: 50%;
+}
+
+.text-main h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.text-main p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 43px;
+}
