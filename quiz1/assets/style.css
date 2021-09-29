@@ -93,6 +93,10 @@ footer p {
     margin: 0;
 }
 
+.main-content a {
+    text-decoration: none;
+}
+
 .main-content p {
     font-style: normal;
     font-weight: 500;
